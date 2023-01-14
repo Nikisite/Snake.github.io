@@ -1,0 +1,35 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+/*Задаём глобальные параметры*/
+body {
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gamename{
+    position: absolute;
+    font-size: 18px;
+    top:10%;
+    left:45%;
+    color: aliceblue;
+}
+
+.play-button{
+    position: absolute;
+    padding: 15px;
+    top: 50%;
+    left:45%;
+    width: 10%;
+    background: green;
+}
+
+/*Делаем границу вокруг игрового поля*/
+canvas {
+  border: 1px solid white;
+}
